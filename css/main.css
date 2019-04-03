@@ -66,3 +66,12 @@ section {
   font-size: 16px;
   color: #364147;
 }
+.header-nav {
+  border-bottom: 1px solid #a0a0a0;
+}
+.brand {
+  width: 170px;
+  height: 85px;
+  margin-left: -15px;
+  margin-right: -60px;
+}

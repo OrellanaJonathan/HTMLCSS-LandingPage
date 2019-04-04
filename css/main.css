@@ -77,5 +77,30 @@ section {
 }
 .logo {
   max-width: 100%;
-  
+  height: auto;
+}
+.search-box {
+  width: 330px;
+  height: 30;
+  padding: 6px 12px 6px 12px;
+  border-color: #a0a0a0;
+  border: 1px;
+}
+.search-button {
+  background-color: #a0a0a0;
+  text-decoration-color: #ffffff;
+  width: 100px;
+  height: 30px;
+  border: 0;
+  padding: 0;
+}
+.nav-list {
+  padding-left: 0;
+  width: 575px;
+  margin-top: 10px;
+}.nav-list li a {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.2px;
 }

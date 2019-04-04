@@ -81,14 +81,13 @@ section {
 }
 .search-box {
   width: 330px;
-  height: 30;
+  height: 30px;
   padding: 6px 12px 6px 12px;
-  border-color: #a0a0a0;
-  border: 1px;
+  border: 1px solid #a0a0a0;
 }
 .search-button {
   background-color: #a0a0a0;
-  text-decoration-color: #ffffff;
+  color: #ffffff;
   width: 100px;
   height: 30px;
   border: 0;
@@ -103,4 +102,24 @@ section {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.2px;
+}
+.profile {
+  margin-left: auto;
+}
+.account {
+  text-align: right;
+  padding: 15px;
+  color: #364147;
+  font-size: 18px;
+}
+.account a {
+  font-size: 14px;
+}
+.profile-pic {
+  width: 60px;
+  height: 60px;
+}
+.profile-pic img {
+  border-radius: 100px;
+  max-width: 100%;
 }

@@ -193,3 +193,25 @@ section {
   font-weight: 700;
   line-height: 1;
 }
+.full-banner {
+  padding: 0 15px;
+  margin: 50px 0;
+  position: relative;
+}
+.full-banner:before {
+  content: "";
+  position: absolute;
+  border: 1px solid #ffffff;
+  top: 30px;
+  bottom: 30px;
+  left: 50px;
+  right: 50px;
+  z-index: 1;
+}
+.full-banner-image {
+  flex: 0 0 58.333333%;
+  background-image: url(../img/vista.jpg);
+  background-size: cover;
+  background-position: top center;
+  min-height: 400px;
+}
